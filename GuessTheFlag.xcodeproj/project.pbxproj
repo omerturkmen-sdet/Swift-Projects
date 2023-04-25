@@ -11,6 +11,13 @@
 		A2D9A9E229F2CF0C00F6B4AB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D9A9E129F2CF0C00F6B4AB /* ContentView.swift */; };
 		A2D9A9E429F2CF0D00F6B4AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2D9A9E329F2CF0D00F6B4AB /* Assets.xcassets */; };
 		A2D9A9E729F2CF0D00F6B4AB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2D9A9E629F2CF0D00F6B4AB /* Preview Assets.xcassets */; };
+		A2D9A9EE29F2D0FF00F6B4AB /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D9A9ED29F2D0FF00F6B4AB /* GridView.swift */; };
+		A2D9A9F029F2D14800F6B4AB /* ColorAndFrames.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D9A9EF29F2D14800F6B4AB /* ColorAndFrames.swift */; };
+		A2D9A9F229F2D78E00F6B4AB /* Gradients.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D9A9F129F2D78E00F6B4AB /* Gradients.swift */; };
+		A2D9A9F429F2DA4000F6B4AB /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D9A9F329F2DA4000F6B4AB /* Buttons.swift */; };
+		A2D9A9F629F2DD4A00F6B4AB /* AlertMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D9A9F529F2DD4A00F6B4AB /* AlertMessages.swift */; };
+		A2D9A9FA29F3FFFF00F6B4AB /* Challenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D9A9F929F3FFFF00F6B4AB /* Challenge.swift */; };
+		A2D9AA1E29F877A400F6B4AB /* Day24Challenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D9AA1D29F877A400F6B4AB /* Day24Challenge.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +26,13 @@
 		A2D9A9E129F2CF0C00F6B4AB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A2D9A9E329F2CF0D00F6B4AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2D9A9E629F2CF0D00F6B4AB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A2D9A9ED29F2D0FF00F6B4AB /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		A2D9A9EF29F2D14800F6B4AB /* ColorAndFrames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorAndFrames.swift; sourceTree = "<group>"; };
+		A2D9A9F129F2D78E00F6B4AB /* Gradients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gradients.swift; sourceTree = "<group>"; };
+		A2D9A9F329F2DA4000F6B4AB /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
+		A2D9A9F529F2DD4A00F6B4AB /* AlertMessages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertMessages.swift; sourceTree = "<group>"; };
+		A2D9A9F929F3FFFF00F6B4AB /* Challenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge.swift; sourceTree = "<group>"; };
+		A2D9AA1D29F877A400F6B4AB /* Day24Challenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day24Challenge.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +69,13 @@
 				A2D9A9E129F2CF0C00F6B4AB /* ContentView.swift */,
 				A2D9A9E329F2CF0D00F6B4AB /* Assets.xcassets */,
 				A2D9A9E529F2CF0D00F6B4AB /* Preview Content */,
+				A2D9A9ED29F2D0FF00F6B4AB /* GridView.swift */,
+				A2D9A9EF29F2D14800F6B4AB /* ColorAndFrames.swift */,
+				A2D9A9F129F2D78E00F6B4AB /* Gradients.swift */,
+				A2D9A9F329F2DA4000F6B4AB /* Buttons.swift */,
+				A2D9A9F529F2DD4A00F6B4AB /* AlertMessages.swift */,
+				A2D9A9F929F3FFFF00F6B4AB /* Challenge.swift */,
+				A2D9AA1D29F877A400F6B4AB /* Day24Challenge.swift */,
 			);
 			path = GuessTheFlag;
 			sourceTree = "<group>";
@@ -138,7 +159,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2D9A9E229F2CF0C00F6B4AB /* ContentView.swift in Sources */,
+				A2D9AA1E29F877A400F6B4AB /* Day24Challenge.swift in Sources */,
+				A2D9A9F629F2DD4A00F6B4AB /* AlertMessages.swift in Sources */,
+				A2D9A9F229F2D78E00F6B4AB /* Gradients.swift in Sources */,
+				A2D9A9EE29F2D0FF00F6B4AB /* GridView.swift in Sources */,
+				A2D9A9F429F2DA4000F6B4AB /* Buttons.swift in Sources */,
+				A2D9A9FA29F3FFFF00F6B4AB /* Challenge.swift in Sources */,
 				A2D9A9E029F2CF0C00F6B4AB /* GuessTheFlagApp.swift in Sources */,
+				A2D9A9F029F2D14800F6B4AB /* ColorAndFrames.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
