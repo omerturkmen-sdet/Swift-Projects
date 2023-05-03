@@ -1,20 +1,23 @@
 //
-//  ContentView.swift
+//  Challenge.swift
 //  BetterRest
 //
-//  Created by ömer türkmen on 28.04.2023.
+//  Created by ömer türkmen on 1.05.2023.
 //
 
 import CoreML
 import SwiftUI
 
-struct ContentView: View {
+/*
+ Change the user interface so that it always shows their recommended bedtime using a nice and large font. You should be able to remove the “Calculate” button entirely.
+ */
+
+struct Challenge: View {
     @State private var wakeUp = defaultWakeTime
     @State private var sleepAmount = 8.0
     @State private var coffeeAmount = 1
-    @State private var alertTitle = ""
-    @State private var alertMessage = ""
-    @State private var showingAlert  = false
+    @State private var bedTime = ""
+
 
     static var defaultWakeTime: Date{
         var components = DateComponents()
@@ -45,27 +48,23 @@ struct ContentView: View {
                     .font(.headline)){
                     
                         Picker("Coffee amount per cup", selection: $coffeeAmount){
-                            ForEach(1..<20){
+                            ForEach(0..<20){
                                 Text("\($0)")
                             }
                         }
-                    Stepper(coffeeAmount == 1 ? "\(coffeeAmount) cup" : "\(coffeeAmount) cups",value: $coffeeAmount,in: 1...20)
+                }
+                
+                Section(header: Text("Your bed time").font(.headline)){
+                    Text(calculateBedTime)
                 }
             }
             .padding()
             .navigationTitle("BetterRest")
-            .toolbar{
-                Button("Calculate", action: calculateBedTime)
-            }
-            .alert(alertTitle, isPresented: $showingAlert) {
-                Button("OK") { }
-            } message: {
-                Text(alertMessage)
-            }
+            
         }
     }
     
-    func calculateBedTime(){
+    var calculateBedTime: String {
         do{
             let config = MLModelConfiguration()
             let model = try SleepCalculator(configuration: config)
@@ -77,21 +76,29 @@ struct ContentView: View {
             let prediction = try model.prediction(wake: Double(hour + minute), estimatedSleep: sleepAmount, coffee: Double(coffeeAmount))
             
             let sleepTime = wakeUp - prediction.actualSleep
-            
-            alertTitle = "Your ideal bedtime is…"
-            alertMessage = sleepTime.formatted(date: .omitted, time: .shortened)
+            return sleepTime.formatted(date: .omitted, time: .shortened)
             
         }catch{
-            alertTitle = "Error"
-            alertMessage = "Sorry, there was a problem calculating your beditme.."
+            
         }
-        
-        showingAlert = true
+        return ""
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+/*
+    10:00
+    8 hours
+    1 cup
+            --> 1:38
+ 
+ 10:00
+ 8 hours
+ 3 cup
+         --> 1:10
+ */
+
+struct Challenge_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        Challenge()
     }
 }

@@ -11,6 +11,11 @@
 		A2D9AA5229FB1F2100F6B4AB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D9AA5129FB1F2100F6B4AB /* ContentView.swift */; };
 		A2D9AA5429FB1F2300F6B4AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2D9AA5329FB1F2300F6B4AB /* Assets.xcassets */; };
 		A2D9AA5729FB1F2300F6B4AB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2D9AA5629FB1F2300F6B4AB /* Preview Assets.xcassets */; };
+		A2D9AA5E29FB1F8000F6B4AB /* EnteringNumbersWithStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D9AA5D29FB1F8000F6B4AB /* EnteringNumbersWithStepper.swift */; };
+		A2D9AA6029FB205D00F6B4AB /* SelectingDateAndTimes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D9AA5F29FB205D00F6B4AB /* SelectingDateAndTimes.swift */; };
+		A2D9AA6229FF2E4F00F6B4AB /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = A2D9AA6129FF2E4F00F6B4AB /* SleepCalculator.mlmodel */; };
+		A2D9AA6429FFB0EC00F6B4AB /* Challenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D9AA6329FFB0EC00F6B4AB /* Challenge.swift */; };
+		A2D9AA662A00694C00F6B4AB /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D9AA652A00694C00F6B4AB /* Solution.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		A2D9AA5129FB1F2100F6B4AB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A2D9AA5329FB1F2300F6B4AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2D9AA5629FB1F2300F6B4AB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A2D9AA5D29FB1F8000F6B4AB /* EnteringNumbersWithStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnteringNumbersWithStepper.swift; sourceTree = "<group>"; };
+		A2D9AA5F29FB205D00F6B4AB /* SelectingDateAndTimes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectingDateAndTimes.swift; sourceTree = "<group>"; };
+		A2D9AA6129FF2E4F00F6B4AB /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = "<group>"; };
+		A2D9AA6329FFB0EC00F6B4AB /* Challenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge.swift; sourceTree = "<group>"; };
+		A2D9AA652A00694C00F6B4AB /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +63,13 @@
 			children = (
 				A2D9AA4F29FB1F2100F6B4AB /* BetterRestApp.swift */,
 				A2D9AA5129FB1F2100F6B4AB /* ContentView.swift */,
+				A2D9AA6129FF2E4F00F6B4AB /* SleepCalculator.mlmodel */,
 				A2D9AA5329FB1F2300F6B4AB /* Assets.xcassets */,
 				A2D9AA5529FB1F2300F6B4AB /* Preview Content */,
+				A2D9AA5D29FB1F8000F6B4AB /* EnteringNumbersWithStepper.swift */,
+				A2D9AA5F29FB205D00F6B4AB /* SelectingDateAndTimes.swift */,
+				A2D9AA6329FFB0EC00F6B4AB /* Challenge.swift */,
+				A2D9AA652A00694C00F6B4AB /* Solution.swift */,
 			);
 			path = BetterRest;
 			sourceTree = "<group>";
@@ -137,8 +152,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2D9AA6229FF2E4F00F6B4AB /* SleepCalculator.mlmodel in Sources */,
+				A2D9AA6429FFB0EC00F6B4AB /* Challenge.swift in Sources */,
+				A2D9AA5E29FB1F8000F6B4AB /* EnteringNumbersWithStepper.swift in Sources */,
 				A2D9AA5229FB1F2100F6B4AB /* ContentView.swift in Sources */,
 				A2D9AA5029FB1F2100F6B4AB /* BetterRestApp.swift in Sources */,
+				A2D9AA6029FB205D00F6B4AB /* SelectingDateAndTimes.swift in Sources */,
+				A2D9AA662A00694C00F6B4AB /* Solution.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
