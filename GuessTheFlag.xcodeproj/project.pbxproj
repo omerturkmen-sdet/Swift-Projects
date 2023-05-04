@@ -18,6 +18,7 @@
 		A2D9A9F629F2DD4A00F6B4AB /* AlertMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D9A9F529F2DD4A00F6B4AB /* AlertMessages.swift */; };
 		A2D9A9FA29F3FFFF00F6B4AB /* Challenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D9A9F929F3FFFF00F6B4AB /* Challenge.swift */; };
 		A2D9AA1E29F877A400F6B4AB /* Day24Challenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D9AA1D29F877A400F6B4AB /* Day24Challenge.swift */; };
+		A2D9AAB02A03CB1E00F6B4AB /* AnimationWrapUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D9AAAF2A03CB1E00F6B4AB /* AnimationWrapUp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		A2D9A9F529F2DD4A00F6B4AB /* AlertMessages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertMessages.swift; sourceTree = "<group>"; };
 		A2D9A9F929F3FFFF00F6B4AB /* Challenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge.swift; sourceTree = "<group>"; };
 		A2D9AA1D29F877A400F6B4AB /* Day24Challenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day24Challenge.swift; sourceTree = "<group>"; };
+		A2D9AAAF2A03CB1E00F6B4AB /* AnimationWrapUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationWrapUp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 				A2D9A9F529F2DD4A00F6B4AB /* AlertMessages.swift */,
 				A2D9A9F929F3FFFF00F6B4AB /* Challenge.swift */,
 				A2D9AA1D29F877A400F6B4AB /* Day24Challenge.swift */,
+				A2D9AAAF2A03CB1E00F6B4AB /* AnimationWrapUp.swift */,
 			);
 			path = GuessTheFlag;
 			sourceTree = "<group>";
@@ -159,6 +162,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2D9A9E229F2CF0C00F6B4AB /* ContentView.swift in Sources */,
+				A2D9AAB02A03CB1E00F6B4AB /* AnimationWrapUp.swift in Sources */,
 				A2D9AA1E29F877A400F6B4AB /* Day24Challenge.swift in Sources */,
 				A2D9A9F629F2DD4A00F6B4AB /* AlertMessages.swift in Sources */,
 				A2D9A9F229F2D78E00F6B4AB /* Gradients.swift in Sources */,
